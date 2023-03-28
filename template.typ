@@ -133,4 +133,25 @@
     v(50pt)
     sign-area
   })
+
+  let header = {
+    align(
+      right,
+      text(
+        font: SimSun.regular,
+        size: size.s5,
+        fill: rgb(133, 133, 133),
+        style: "oblique",
+        emph("文华学院毕业设计（论文）")
+      )
+    )
+
+    v(-5pt)
+    line(length: 100%, stroke: 0.5pt)
+    v(-10.8pt)
+    line(length: 100%, stroke: 0.2pt)
+  }
+
+  pagebreak()
+  header
 }
